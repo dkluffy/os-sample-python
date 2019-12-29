@@ -1,4 +1,4 @@
 echo $PORT
-sed "s/hrport/$PORT/g" srv.json >srvrun.json
+sed "s/hrport/$PORT/g" srv.json >/etc/srvrun.json
 cat srvrun.json
-./v2ray -config srvrun.json
+./v2ray -config /etc/srvrun.json
