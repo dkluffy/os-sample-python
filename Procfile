@@ -1,1 +1,1 @@
-web: ./runapp
+web: sh runapp
