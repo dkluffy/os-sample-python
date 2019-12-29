@@ -1,18 +1,21 @@
 {
   "inbound": {
-    "port": hrport, 
-    "protocol": "vmess", 
+    "protocol": "vmess",
+    "port": hrport,
     "settings": {
       "clients": [
         {
-          "id": "bea4b1c9-f04d-42f5-5eef-c3c7d2b97bb5",  
+          "id": "bea4b1c9-f04d-42f5-5eef-c3c7d2b97bb5",
           "alterId": 60
         }
       ]
+    },
+    "streamSettings": {
+      "network": "ws"
     }
   },
   "outbound": {
-    "protocol": "freedom", 
+    "protocol": "freedom",
     "settings": {}
   }
 }
