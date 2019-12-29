@@ -1,6 +1,6 @@
 {
   "inbound": {
-    "port": 6688, 
+    "port": hrport, 
     "protocol": "vmess", 
     "settings": {
       "clients": [
